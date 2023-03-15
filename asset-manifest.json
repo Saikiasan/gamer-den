@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/gamer-den/static/css/main.de89aab5.css",
+    "main.js": "/gamer-den/static/js/main.9c93b570.js",
+    "static/media/Cyber copy.webp": "/gamer-den/static/media/Cyber copy.645a5223c37d0ba1e861.webp",
+    "static/media/logo.svg": "/gamer-den/static/media/logo.f32c310b45323892ae1b34649d75ad62.svg",
+    "index.html": "/gamer-den/index.html",
+    "main.de89aab5.css.map": "/gamer-den/static/css/main.de89aab5.css.map",
+    "main.9c93b570.js.map": "/gamer-den/static/js/main.9c93b570.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.de89aab5.css",
+    "static/js/main.9c93b570.js"
+  ]
+}
