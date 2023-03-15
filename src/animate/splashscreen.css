@@ -1,0 +1,23 @@
+.image-logo {
+  animation-name: rotate;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  transition: all .5s ease-in-out;
+  width: 80px;
+}
+
+@keyframes rotate {
+  0% {
+    rotate: 0deg;
+    width: 120px;
+  }
+  50% {
+    width: 80px;
+    filter: brightness(.2);
+  }
+  100% {
+    rotate: 360deg;
+    width: 120px;
+  }
+}
