@@ -3,6 +3,10 @@ import LogoImg from '../logo.svg'
 import '../animate/splashscreen.css'
 import Typed from 'typed.js'
 
+setTimeout(()=>{
+  window.location.href = '/gamer-den/home'
+},2000)
+
 const SplashScreen = () => {
   const el = React.useRef(null)
 
@@ -28,9 +32,6 @@ const SplashScreen = () => {
         <div className='row position-fixed bottom-0 start-0 p-4'>
           <div className='col'>
             <span className='text-light text-uppercase fs-1 fw-bolder' ref={el}></span>
-          </div>
-          <div className='col'>
-            <a className='btn btn-outline-light btn-lg' href='/home'>Go</a>
           </div>
         </div>
       </div>
