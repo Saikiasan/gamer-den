@@ -19,7 +19,7 @@ const router = createBrowserRouter([
     element: <SplashScreen/>
   },
   {
-    path: '/gamer-den/home',
+    path: '/home',
     element: <Homepage/>
   }
 ])
