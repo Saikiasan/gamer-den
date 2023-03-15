@@ -3,10 +3,6 @@ import LogoImg from '../logo.svg'
 import '../animate/splashscreen.css'
 import Typed from 'typed.js'
 
-setTimeout(()=>{
-  window.location.href = '/gamer-den/home'
-},2000)
-
 const SplashScreen = () => {
   const el = React.useRef(null)
 

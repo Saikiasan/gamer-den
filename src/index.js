@@ -13,8 +13,8 @@ const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(
   <BrowserRouter>
     <Routes>
-      <Route exact path='gamer-den' element={<SplashScreen/>}/>
-      <Route exact path='gamer-den/*' element={<SplashScreen/>}/>
+      <Route exact path='gamer-den' element={<Homepage/>}/>
+      <Route exact path='gamer-den/*' element={<Homepage/>}/>
       <Route exact path='gamer-den/home' element={<Homepage/>}/>
     </Routes>
   </BrowserRouter>

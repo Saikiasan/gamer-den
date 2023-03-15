@@ -1,4 +1,4 @@
-# WIX-TEMP
+# gamer-den
 A test phase development project started for market research
 
 The Application developed will be used as a personal business oppurtunity
